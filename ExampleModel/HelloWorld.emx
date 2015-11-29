@@ -26,6 +26,27 @@
           </children>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2qFLoZaXEeWynfEJ_ND8lQ" x="3624" y="2222"/>
         </children>
+        <children xmi:type="umlnotation:UMLShape" xmi:id="_7SY7EJa5EeWynfEJ_ND8lQ" element="_7SQYMJa5EeWynfEJ_ND8lQ" fontName="Liberation Sans" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+          <children xmi:type="notation:DecorationNode" xmi:id="_7SZiIJa5EeWynfEJ_ND8lQ" type="ImageCompartment">
+            <layoutConstraint xmi:type="notation:Size" xmi:id="_7SZiIZa5EeWynfEJ_ND8lQ" width="1320" height="1320"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_7SaJMJa5EeWynfEJ_ND8lQ" type="Stereotype"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_7SawQJa5EeWynfEJ_ND8lQ" type="Name"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_7SawQZa5EeWynfEJ_ND8lQ" type="Parent"/>
+          <children xmi:id="_7SawQpa5EeWynfEJ_ND8lQ" type="inEventCompartment">
+            <styles xmi:type="notation:DrawerStyle" xmi:id="_7SawQ5a5EeWynfEJ_ND8lQ"/>
+            <styles xmi:type="notation:TitleStyle" xmi:id="_7SawRJa5EeWynfEJ_ND8lQ"/>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_7SawRZa5EeWynfEJ_ND8lQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_7SawRpa5EeWynfEJ_ND8lQ"/>
+          </children>
+          <children xmi:id="_7SawR5a5EeWynfEJ_ND8lQ" type="outEventCompartment">
+            <styles xmi:type="notation:DrawerStyle" xmi:id="_7SawSJa5EeWynfEJ_ND8lQ"/>
+            <styles xmi:type="notation:TitleStyle" xmi:id="_7SawSZa5EeWynfEJ_ND8lQ"/>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_7SawSpa5EeWynfEJ_ND8lQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_7SawS5a5EeWynfEJ_ND8lQ"/>
+          </children>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7SY7EZa5EeWynfEJ_ND8lQ" x="9510" y="2219"/>
+        </children>
         <element xsi:nil="true"/>
       </contents>
     </eAnnotations>
@@ -94,6 +115,7 @@
       <ownedAttribute xmi:type="uml:Port" xmi:id="_FDfQcE_nEeWJ-pI23zFNuA" name="log" aggregation="composite" isBehavior="true" isService="false">
         <type xmi:type="uml:Collaboration" href="platform:/plugin/com.ibm.xtools.umldt.rt.cpp.core/libraries/RTClasses.emx#_17x9drIlEduJc5NEaBCMOw?RTClasses/Log/Log?"/>
       </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_J0DNsJa6EeWynfEJ_ND8lQ" name="msgP" type="_7SQYMJa5EeWynfEJ_ND8lQ" aggregation="composite" isBehavior="true"/>
       <ownedBehavior xmi:type="uml:StateMachine" xmi:id="_E878gE_nEeWJ-pI23zFNuA" name="State Machine">
         <eAnnotations xmi:id="_FC9sAE_nEeWJ-pI23zFNuA" source="uml2.diagrams" references="_FC-TEE_nEeWJ-pI23zFNuA">
           <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_FC-TEE_nEeWJ-pI23zFNuA" type="Statechart" element="_E878gE_nEeWJ-pI23zFNuA" measurementUnit="Himetric">
@@ -119,6 +141,39 @@ context()->abort();</body>
           </transition>
         </region>
       </ownedBehavior>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_7SMGwJa5EeWynfEJ_ND8lQ" name="MsgP">
+      <packagedElement xmi:type="uml:Collaboration" xmi:id="_7SQYMJa5EeWynfEJ_ND8lQ" name="MsgP" clientDependency="_7SS0dpa5EeWynfEJ_ND8lQ _7STbgJa5EeWynfEJ_ND8lQ">
+        <interfaceRealization xmi:id="_7SS0dpa5EeWynfEJ_ND8lQ" name="" supplier="_7SS0cJa5EeWynfEJ_ND8lQ" client="_7SQYMJa5EeWynfEJ_ND8lQ" contract="_7SS0cJa5EeWynfEJ_ND8lQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_7SS0cJa5EeWynfEJ_ND8lQ" name="MsgP">
+        <eAnnotations xmi:id="_7SS0cZa5EeWynfEJ_ND8lQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_7SS0cpa5EeWynfEJ_ND8lQ" key="ProtocolRole"/>
+        </eAnnotations>
+        <ownedOperation xmi:id="_8sHuIZa5EeWynfEJ_ND8lQ" name="setMsg">
+          <ownedParameter xmi:id="_-1nxQJa5EeWynfEJ_ND8lQ" name="String msg"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_DkAL8Za6EeWynfEJ_ND8lQ" name="getMsg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_7SS0c5a5EeWynfEJ_ND8lQ" name="MsgP~">
+        <eAnnotations xmi:id="_7SS0dJa5EeWynfEJ_ND8lQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_7SS0dZa5EeWynfEJ_ND8lQ" key="ProtocolRole"/>
+        </eAnnotations>
+        <ownedOperation xmi:id="__rUqMZa5EeWynfEJ_ND8lQ" name="getMsgReply">
+          <ownedParameter xmi:id="_DAAuEJa6EeWynfEJ_ND8lQ" name="String msg"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_7STbgJa5EeWynfEJ_ND8lQ" supplier="_7SS0c5a5EeWynfEJ_ND8lQ" client="_7SQYMJa5EeWynfEJ_ND8lQ"/>
+      <packagedElement xmi:type="uml:AnyReceiveEvent" xmi:id="_7STbgZa5EeWynfEJ_ND8lQ" name="*"/>
+      <packagedElement xmi:type="uml:CallEvent" xmi:id="_8sEDwJa5EeWynfEJ_ND8lQ" operation="_8sHuIZa5EeWynfEJ_ND8lQ">
+        <name xsi:nil="true"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:CallEvent" xmi:id="__rPxsJa5EeWynfEJ_ND8lQ" operation="__rUqMZa5EeWynfEJ_ND8lQ">
+        <name xsi:nil="true"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:CallEvent" xmi:id="_Dj43MJa6EeWynfEJ_ND8lQ" operation="_DkAL8Za6EeWynfEJ_ND8lQ">
+        <name xsi:nil="true"/>
+      </packagedElement>
     </packagedElement>
     <profileApplication xmi:id="_E5iDYE_nEeWJ-pI23zFNuA">
       <eAnnotations xmi:id="_E5iDYU_nEeWJ-pI23zFNuA" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -160,4 +215,10 @@ context()->abort();</body>
   <Default:DefaultLanguage xmi:id="_E5iDaE_nEeWJ-pI23zFNuA" base_Package="_E5iDME_nEeWJ-pI23zFNuA" defaultLanguage="C++"/>
   <UMLRealTime:Capsule xmi:id="_E9eIAE_nEeWJ-pI23zFNuA" base_Class="_E8MVoE_nEeWJ-pI23zFNuA"/>
   <UMLRealTime:RTPort xmi:id="_FDkI8E_nEeWJ-pI23zFNuA" isWired="false" base_Port="_FDfQcE_nEeWJ-pI23zFNuA"/>
+  <UMLRealTime:ProtocolContainer xmi:id="_7SPxIJa5EeWynfEJ_ND8lQ" base_Package="_7SMGwJa5EeWynfEJ_ND8lQ"/>
+  <UMLRealTime:Protocol xmi:id="_7SSNYJa5EeWynfEJ_ND8lQ" base_Collaboration="_7SQYMJa5EeWynfEJ_ND8lQ"/>
+  <UMLRealTime:InEvent xmi:id="_8sHuIJa5EeWynfEJ_ND8lQ" base_CallEvent="_8sEDwJa5EeWynfEJ_ND8lQ"/>
+  <UMLRealTime:OutEvent xmi:id="__rUqMJa5EeWynfEJ_ND8lQ" base_CallEvent="__rPxsJa5EeWynfEJ_ND8lQ"/>
+  <UMLRealTime:InEvent xmi:id="_DkAL8Ja6EeWynfEJ_ND8lQ" base_CallEvent="_Dj43MJa6EeWynfEJ_ND8lQ"/>
+  <UMLRealTime:RTPort xmi:id="_J0HfIJa6EeWynfEJ_ND8lQ" base_Port="_J0DNsJa6EeWynfEJ_ND8lQ"/>
 </xmi:XMI>
