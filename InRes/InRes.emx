@@ -112,7 +112,7 @@
             <styles xmi:type="notation:SortingStyle" xmi:id="_vnJa-JbEEeWynfEJ_ND8lQ"/>
             <styles xmi:type="notation:FilteringStyle" xmi:id="_vnJa-ZbEEeWynfEJ_ND8lQ"/>
           </children>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnIz4ZbEEeWynfEJ_ND8lQ" x="11095" y="6023"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnIz4ZbEEeWynfEJ_ND8lQ" x="11095" y="6974"/>
         </children>
         <children xmi:type="umlnotation:UMLShape" xmi:id="_zPMfsJbEEeWynfEJ_ND8lQ" element="_zPHAIZbEEeWynfEJ_ND8lQ" fontName="Liberation Sans" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
           <children xmi:type="notation:DecorationNode" xmi:id="_zPMfspbEEeWynfEJ_ND8lQ" type="ImageCompartment">
@@ -133,7 +133,7 @@
             <styles xmi:type="notation:SortingStyle" xmi:id="_zPNGyZbEEeWynfEJ_ND8lQ"/>
             <styles xmi:type="notation:FilteringStyle" xmi:id="_zPNGypbEEeWynfEJ_ND8lQ"/>
           </children>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zPMfsZbEEeWynfEJ_ND8lQ" x="11059" y="8651"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zPMfsZbEEeWynfEJ_ND8lQ" x="11095" y="10461"/>
         </children>
         <element xsi:nil="true"/>
       </contents>
@@ -201,14 +201,30 @@
         <eAnnotations xmi:id="_tsg6QpbEEeWynfEJ_ND8lQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
           <details xmi:id="_tsg6Q5bEEeWynfEJ_ND8lQ" key="ProtocolRole"/>
         </eAnnotations>
+        <ownedOperation xmi:id="_AN9cMJbFEeWynfEJ_ND8lQ" name="ICONreq"/>
+        <ownedOperation xmi:id="_B9rGUZbFEeWynfEJ_ND8lQ" name="IDATreq"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Interface" xmi:id="_tsg6RJbEEeWynfEJ_ND8lQ" name="ISAPini~">
         <eAnnotations xmi:id="_tshhUJbEEeWynfEJ_ND8lQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
           <details xmi:id="_tshhUZbEEeWynfEJ_ND8lQ" key="ProtocolRole"/>
         </eAnnotations>
+        <ownedOperation xmi:id="_DUnEEJbFEeWynfEJ_ND8lQ" name="ICONconf"/>
+        <ownedOperation xmi:id="_EbGyEZbFEeWynfEJ_ND8lQ" name="IDISind"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Usage" xmi:id="_tshhU5bEEeWynfEJ_ND8lQ" supplier="_tsg6RJbEEeWynfEJ_ND8lQ" client="_tsfFEZbEEeWynfEJ_ND8lQ"/>
       <packagedElement xmi:type="uml:AnyReceiveEvent" xmi:id="_tshhVJbEEeWynfEJ_ND8lQ" name="*"/>
+      <packagedElement xmi:type="uml:CallEvent" xmi:id="_AN2HcJbFEeWynfEJ_ND8lQ" operation="_AN9cMJbFEeWynfEJ_ND8lQ">
+        <name xsi:nil="true"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:CallEvent" xmi:id="_B9nb8JbFEeWynfEJ_ND8lQ" operation="_B9rGUZbFEeWynfEJ_ND8lQ">
+        <name xsi:nil="true"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:CallEvent" xmi:id="_DUlO4JbFEeWynfEJ_ND8lQ" operation="_DUnEEJbFEeWynfEJ_ND8lQ">
+        <name xsi:nil="true"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:CallEvent" xmi:id="_EbArcJbFEeWynfEJ_ND8lQ" operation="_EbGyEZbFEeWynfEJ_ND8lQ">
+        <name xsi:nil="true"/>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_vnBfIJbEEeWynfEJ_ND8lQ" name="ISAPres">
       <packagedElement xmi:type="uml:Collaboration" xmi:id="_vnDUUJbEEeWynfEJ_ND8lQ" name="ISAPres" clientDependency="_vnFJhpbEEeWynfEJ_ND8lQ _vnFJh5bEEeWynfEJ_ND8lQ">
@@ -218,14 +234,30 @@
         <eAnnotations xmi:id="_vnFJgZbEEeWynfEJ_ND8lQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
           <details xmi:id="_vnFJgpbEEeWynfEJ_ND8lQ" key="ProtocolRole"/>
         </eAnnotations>
+        <ownedOperation xmi:id="_TE2CoJbFEeWynfEJ_ND8lQ" name="ICONResp"/>
+        <ownedOperation xmi:id="_Uu4ikZbFEeWynfEJ_ND8lQ" name="IDISreq"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Interface" xmi:id="_vnFJg5bEEeWynfEJ_ND8lQ" name="ISAPres~">
         <eAnnotations xmi:id="_vnFJhJbEEeWynfEJ_ND8lQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
           <details xmi:id="_vnFJhZbEEeWynfEJ_ND8lQ" key="ProtocolRole"/>
         </eAnnotations>
+        <ownedOperation xmi:id="_VsqZcZbFEeWynfEJ_ND8lQ" name="ICONind"/>
+        <ownedOperation xmi:id="_WricgZbFEeWynfEJ_ND8lQ" name="IDATind"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Usage" xmi:id="_vnFJh5bEEeWynfEJ_ND8lQ" supplier="_vnFJg5bEEeWynfEJ_ND8lQ" client="_vnDUUJbEEeWynfEJ_ND8lQ"/>
       <packagedElement xmi:type="uml:AnyReceiveEvent" xmi:id="_vnFwkJbEEeWynfEJ_ND8lQ" name="*"/>
+      <packagedElement xmi:type="uml:CallEvent" xmi:id="_TEut4JbFEeWynfEJ_ND8lQ" operation="_TE2CoJbFEeWynfEJ_ND8lQ">
+        <name xsi:nil="true"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:CallEvent" xmi:id="_Uux04JbFEeWynfEJ_ND8lQ" operation="_Uu4ikZbFEeWynfEJ_ND8lQ">
+        <name xsi:nil="true"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:CallEvent" xmi:id="_VsokQJbFEeWynfEJ_ND8lQ" operation="_VsqZcZbFEeWynfEJ_ND8lQ">
+        <name xsi:nil="true"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:CallEvent" xmi:id="_WrgAQJbFEeWynfEJ_ND8lQ" operation="_WricgZbFEeWynfEJ_ND8lQ">
+        <name xsi:nil="true"/>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_zPFK8JbEEeWynfEJ_ND8lQ" name="MSAP">
       <packagedElement xmi:type="uml:Collaboration" xmi:id="_zPHAIZbEEeWynfEJ_ND8lQ" name="MSAP" clientDependency="_zPI1V5bEEeWynfEJ_ND8lQ _zPJcYJbEEeWynfEJ_ND8lQ">
@@ -235,14 +267,22 @@
         <eAnnotations xmi:id="_zPI1UpbEEeWynfEJ_ND8lQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
           <details xmi:id="_zPI1U5bEEeWynfEJ_ND8lQ" key="ProtocolRole"/>
         </eAnnotations>
+        <ownedOperation xmi:id="_OSWkAZbFEeWynfEJ_ND8lQ" name="MDATreq"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Interface" xmi:id="_zPI1VJbEEeWynfEJ_ND8lQ" name="MSAP~">
         <eAnnotations xmi:id="_zPI1VZbEEeWynfEJ_ND8lQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
           <details xmi:id="_zPI1VpbEEeWynfEJ_ND8lQ" key="ProtocolRole"/>
         </eAnnotations>
+        <ownedOperation xmi:id="_PxVDcZbFEeWynfEJ_ND8lQ" name="MDATind"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Usage" xmi:id="_zPJcYJbEEeWynfEJ_ND8lQ" supplier="_zPI1VJbEEeWynfEJ_ND8lQ" client="_zPHAIZbEEeWynfEJ_ND8lQ"/>
       <packagedElement xmi:type="uml:AnyReceiveEvent" xmi:id="_zPJcYZbEEeWynfEJ_ND8lQ" name="*"/>
+      <packagedElement xmi:type="uml:CallEvent" xmi:id="_OSQdYJbFEeWynfEJ_ND8lQ" operation="_OSWkAZbFEeWynfEJ_ND8lQ">
+        <name xsi:nil="true"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:CallEvent" xmi:id="_PxT1UJbFEeWynfEJ_ND8lQ" operation="_PxVDcZbFEeWynfEJ_ND8lQ">
+        <name xsi:nil="true"/>
+      </packagedElement>
     </packagedElement>
     <profileApplication xmi:id="_igd5wZa5EeWynfEJ_ND8lQ">
       <eAnnotations xmi:id="_igd5wpa5EeWynfEJ_ND8lQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -288,4 +328,14 @@
   <UMLRealTime:Protocol xmi:id="_vnEicJbEEeWynfEJ_ND8lQ" base_Collaboration="_vnDUUJbEEeWynfEJ_ND8lQ"/>
   <UMLRealTime:ProtocolContainer xmi:id="_zPHAIJbEEeWynfEJ_ND8lQ" base_Package="_zPFK8JbEEeWynfEJ_ND8lQ"/>
   <UMLRealTime:Protocol xmi:id="_zPI1UJbEEeWynfEJ_ND8lQ" base_Collaboration="_zPHAIZbEEeWynfEJ_ND8lQ"/>
+  <UMLRealTime:InEvent xmi:id="_AN81IJbFEeWynfEJ_ND8lQ" base_CallEvent="_AN2HcJbFEeWynfEJ_ND8lQ"/>
+  <UMLRealTime:InEvent xmi:id="_B9rGUJbFEeWynfEJ_ND8lQ" base_CallEvent="_B9nb8JbFEeWynfEJ_ND8lQ"/>
+  <UMLRealTime:OutEvent xmi:id="_DUmdAJbFEeWynfEJ_ND8lQ" base_CallEvent="_DUlO4JbFEeWynfEJ_ND8lQ"/>
+  <UMLRealTime:OutEvent xmi:id="_EbGyEJbFEeWynfEJ_ND8lQ" base_CallEvent="_EbArcJbFEeWynfEJ_ND8lQ"/>
+  <UMLRealTime:InEvent xmi:id="_OSWkAJbFEeWynfEJ_ND8lQ" base_CallEvent="_OSQdYJbFEeWynfEJ_ND8lQ"/>
+  <UMLRealTime:OutEvent xmi:id="_PxVDcJbFEeWynfEJ_ND8lQ" base_CallEvent="_PxT1UJbFEeWynfEJ_ND8lQ"/>
+  <UMLRealTime:InEvent xmi:id="_TE1bkJbFEeWynfEJ_ND8lQ" base_CallEvent="_TEut4JbFEeWynfEJ_ND8lQ"/>
+  <UMLRealTime:InEvent xmi:id="_Uu4ikJbFEeWynfEJ_ND8lQ" base_CallEvent="_Uux04JbFEeWynfEJ_ND8lQ"/>
+  <UMLRealTime:OutEvent xmi:id="_VsqZcJbFEeWynfEJ_ND8lQ" base_CallEvent="_VsokQJbFEeWynfEJ_ND8lQ"/>
+  <UMLRealTime:OutEvent xmi:id="_WricgJbFEeWynfEJ_ND8lQ" base_CallEvent="_WrgAQJbFEeWynfEJ_ND8lQ"/>
 </xmi:XMI>
