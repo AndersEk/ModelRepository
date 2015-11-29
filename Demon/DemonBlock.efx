@@ -17,6 +17,9 @@
         </children>
       </contents>
     </eAnnotations>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_koenkJa8EeWynfEJ_ND8lQ" name="bump" aggregation="composite" isBehavior="true">
+      <type xmi:type="uml:Collaboration" href="Demon.emx#_VOzH0Za8EeWynfEJ_ND8lQ?Demon/Bump/Bump?"/>
+    </ownedAttribute>
     <ownedBehavior xmi:type="uml:StateMachine" xmi:id="_CORkkJa5EeWynfEJ_ND8lQ" name="State Machine">
       <eAnnotations xmi:id="_COVO8Ja5EeWynfEJ_ND8lQ" source="uml2.diagrams" references="_COVO8Za5EeWynfEJ_ND8lQ">
         <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_COVO8Za5EeWynfEJ_ND8lQ" type="Statechart" element="_CORkkJa5EeWynfEJ_ND8lQ" measurementUnit="Himetric">
@@ -39,4 +42,5 @@
     </ownedBehavior>
   </uml:Class>
   <UMLRealTime:Capsule xmi:id="_COUn4Ja5EeWynfEJ_ND8lQ" base_Class="_COHzkJa5EeWynfEJ_ND8lQ"/>
+  <UMLRealTime:RTPort xmi:id="_koi5AJa8EeWynfEJ_ND8lQ" isConjugate="true" base_Port="_koenkJa8EeWynfEJ_ND8lQ"/>
 </xmi:XMI>

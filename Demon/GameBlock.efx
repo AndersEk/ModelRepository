@@ -18,6 +18,12 @@
         </children>
       </contents>
     </eAnnotations>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_Q7k_IJa8EeWynfEJ_ND8lQ" name="gameMgm" aggregation="composite" isBehavior="true">
+      <type xmi:type="uml:Collaboration" href="Demon.emx#__wB5IZa7EeWynfEJ_ND8lQ?Demon/GameMgm/GameMgm?"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_hOqMEJa8EeWynfEJ_ND8lQ" name="bump" aggregation="composite" isBehavior="true">
+      <type xmi:type="uml:Collaboration" href="Demon.emx#_VOzH0Za8EeWynfEJ_ND8lQ?Demon/Bump/Bump?"/>
+    </ownedAttribute>
     <ownedBehavior xmi:type="uml:StateMachine" xmi:id="_AO_NYJa5EeWynfEJ_ND8lQ" name="State Machine">
       <eAnnotations xmi:id="_APGiIJa5EeWynfEJ_ND8lQ" source="uml2.diagrams" references="_APHJMJa5EeWynfEJ_ND8lQ">
         <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_APHJMJa5EeWynfEJ_ND8lQ" type="Statechart" element="_AO_NYJa5EeWynfEJ_ND8lQ" measurementUnit="Himetric">
@@ -40,4 +46,6 @@
     </ownedBehavior>
   </uml:Class>
   <UMLRealTime:Capsule xmi:id="_APDe0Ja5EeWynfEJ_ND8lQ" base_Class="_AOznMJa5EeWynfEJ_ND8lQ"/>
+  <UMLRealTime:RTPort xmi:id="_Q7opgJa8EeWynfEJ_ND8lQ" base_Port="_Q7k_IJa8EeWynfEJ_ND8lQ"/>
+  <UMLRealTime:RTPort xmi:id="_hOt2cJa8EeWynfEJ_ND8lQ" base_Port="_hOqMEJa8EeWynfEJ_ND8lQ"/>
 </xmi:XMI>
