@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<!--Rational Software Architect RealTime Edition 9.1.2-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.fragment" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLRealTime="http:///schemas/UMLRealTime/_3TUzoHq6Ed2hSeAAWZznoA/119" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xsi:schemaLocation="http:///schemas/UMLRealTime/_3TUzoHq6Ed2hSeAAWZznoA/119 pathmap://RT_PROPERTIES/UMLRealTime.epx#_3TUzoXq6Ed2hSeAAWZznoA?UMLRealTime/UMLRealTime?">
+  <uml:Class xmi:id="_YezmYJbEEeWynfEJ_ND8lQ" name="MediumService">
+    <eAnnotations xmi:id="_hy8rQZbEEeWynfEJ_ND8lQ" source="com.ibm.xtools.uml.msl.fragments"/>
+    <eAnnotations xmi:id="_hy8rQJbEEeWynfEJ_ND8lQ" source="com.ibm.xtools.uml.msl.fragmentContainer">
+      <references xmi:type="uml:Package" href="InRes.emx#_igd5kZa5EeWynfEJ_ND8lQ?InRes?"/>
+    </eAnnotations>
+    <eAnnotations xmi:id="_Ye_MkJbEEeWynfEJ_ND8lQ" source="uml2.diagrams" references="_Ye_MkZbEEeWynfEJ_ND8lQ">
+      <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_Ye_MkZbEEeWynfEJ_ND8lQ" type="Structure" element="_YezmYJbEEeWynfEJ_ND8lQ" measurementUnit="Himetric">
+        <children xmi:type="umlnotation:UMLShape" xmi:id="_Ye_MkpbEEeWynfEJ_ND8lQ" type="StructureDiagramFrame" element="_YezmYJbEEeWynfEJ_ND8lQ" fontName="Liberation Sans" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+          <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_Ye_Mk5bEEeWynfEJ_ND8lQ" type="StructureCompartment"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_Ye_MlJbEEeWynfEJ_ND8lQ" type="Name"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ye_MlZbEEeWynfEJ_ND8lQ" x="793" y="793"/>
+        </children>
+      </contents>
+    </eAnnotations>
+    <ownedBehavior xmi:type="uml:StateMachine" xmi:id="_Ye67IJbEEeWynfEJ_ND8lQ" name="State Machine">
+      <eAnnotations xmi:id="_Ye-lgJbEEeWynfEJ_ND8lQ" source="uml2.diagrams" references="_Ye-lgZbEEeWynfEJ_ND8lQ">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_Ye-lgZbEEeWynfEJ_ND8lQ" type="Statechart" element="_Ye67IJbEEeWynfEJ_ND8lQ" measurementUnit="Himetric">
+          <children xmi:type="umlnotation:UMLFrame" xmi:id="_Ye-lgpbEEeWynfEJ_ND8lQ" type="Statemachine" element="_Ye67IJbEEeWynfEJ_ND8lQ" fontName="Liberation Sans" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label" alignment="Horizontal">
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_Ye-lg5bEEeWynfEJ_ND8lQ" type="Region" element="_Ye7iMJbEEeWynfEJ_ND8lQ" verticalAlignment="false"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_Ye-lhJbEEeWynfEJ_ND8lQ" type="Name"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ye-lhZbEEeWynfEJ_ND8lQ" x="793" y="793"/>
+          </children>
+        </contents>
+      </eAnnotations>
+      <region xmi:id="_Ye7iMJbEEeWynfEJ_ND8lQ" name="Region1">
+        <subvertex xmi:type="uml:Pseudostate" xmi:id="_Ye7iMZbEEeWynfEJ_ND8lQ"/>
+        <subvertex xmi:type="uml:State" xmi:id="_Ye8JQJbEEeWynfEJ_ND8lQ" name="State1"/>
+        <transition xmi:id="_Ye8JQZbEEeWynfEJ_ND8lQ" name="Initial" source="_Ye7iMZbEEeWynfEJ_ND8lQ" target="_Ye8JQJbEEeWynfEJ_ND8lQ">
+          <eAnnotations xmi:id="_Ye8JQpbEEeWynfEJ_ND8lQ" source="uml2.alias">
+            <details xmi:id="_Ye8JQ5bEEeWynfEJ_ND8lQ" key="Initial"/>
+          </eAnnotations>
+        </transition>
+      </region>
+    </ownedBehavior>
+  </uml:Class>
+  <UMLRealTime:Capsule xmi:id="_Ye9-cJbEEeWynfEJ_ND8lQ" base_Class="_YezmYJbEEeWynfEJ_ND8lQ"/>
+</xmi:XMI>
