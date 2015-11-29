@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><TransformationConfiguration forwardTransformation="com.ibm.xtools.umldt.rt.transform.cpp.UML2CppTransform" version="8.0.0">
+<!--xtools2_universal_type_manager-->
+<!--Rational Software Architect RealTime Edition 9.1.2-->
+<Property id="CONTEXT_SOURCE" value="@49,5@com.ibm.xtools.transform.core.metatype.CollectionDemonjava.util.ArrayList,174&lt;ELEM_START&gt;@52,5@com.ibm.xtools.transform.core.metatype.emf.referenceDemon*Demon;org.eclipse.gmf.runtime.emf.type.core.default;platform:/resource/Demon/Demon.emx#_KiKJUJaYEeWynfEJ_ND8lQ"/>
+<Property id="FORWARD_TRANSFORMATION_EXTENSIONS_STATUS" value="@42,0@com.ibm.xtools.transform.core.metatype.Mapjava.util.HashMap&lt;ELEM_START&gt;"/>
+<Property id="com.ibm.xtools.umldt.rt.transform.ManagingTargetConfiguration" value="@46,=@com.ibm.xtools.transform.core.metatype.booleantrue"/>
+<Property id="com.ibm.xtools.umldt.rt.transform.cpp.TargetServicesLibrary" value="@45,=@com.ibm.xtools.transform.core.metatype.string${RSA_RT_HOME}/C++/TargetRTS"/>
+</TransformationConfiguration>
