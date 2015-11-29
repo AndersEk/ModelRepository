@@ -169,7 +169,11 @@
         </eAnnotations>
         <ownedOperation xmi:id="_JVpvkZa8EeWynfEJ_ND8lQ" name="Win"/>
         <ownedOperation xmi:id="_J3TEEJa8EeWynfEJ_ND8lQ" name="Lose"/>
-        <ownedOperation xmi:id="_MFgBAZa8EeWynfEJ_ND8lQ" name="Score"/>
+        <ownedOperation xmi:id="_MFgBAZa8EeWynfEJ_ND8lQ" name="Score">
+          <ownedParameter xmi:id="_IMrDYJa-EeWynfEJ_ND8lQ" name="result">
+            <type xmi:type="uml:PrimitiveType" href="platform:/plugin/com.ibm.xtools.umldt.rt.cpp.core/libraries/CppPrimitiveDatatypes.emx#_f0876hKyEdyaM9S2zG4bgA?CppPrimitiveDatatypes/int?"/>
+          </ownedParameter>
+        </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Usage" xmi:id="__wEVY5a7EeWynfEJ_ND8lQ" supplier="__wDuVJa7EeWynfEJ_ND8lQ" client="__wB5IZa7EeWynfEJ_ND8lQ"/>
       <packagedElement xmi:type="uml:AnyReceiveEvent" xmi:id="__wEVZJa7EeWynfEJ_ND8lQ" name="*"/>
