@@ -3,7 +3,7 @@
 <!--Rational Software Architect RealTime Edition 9.1.2-->
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Default="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xsi:schemaLocation="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2 pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default?">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Default="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2" xmlns:UMLRealTime="http:///schemas/UMLRealTime/_3TUzoHq6Ed2hSeAAWZznoA/119" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xsi:schemaLocation="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2 pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default? http:///schemas/UMLRealTime/_3TUzoHq6Ed2hSeAAWZznoA/119 pathmap://RT_PROPERTIES/UMLRealTime.epx#_3TUzoXq6Ed2hSeAAWZznoA?UMLRealTime/UMLRealTime?">
   <uml:Package xmi:id="_igd5kZa5EeWynfEJ_ND8lQ" name="InRes">
     <eAnnotations xmi:id="_gKopoZbEEeWynfEJ_ND8lQ" source="com.ibm.xtools.uml.msl.fragments">
       <references xmi:type="uml:Class" href="Initiator.efx#_VG7roJbEEeWynfEJ_ND8lQ?InRes/Initiator?"/>
@@ -72,6 +72,69 @@
           <element xmi:type="uml:Class" href="MediumService.efx#_YezmYJbEEeWynfEJ_ND8lQ?InRes/MediumService?"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YfC28ZbEEeWynfEJ_ND8lQ" x="2989" y="7117"/>
         </children>
+        <children xmi:type="umlnotation:UMLShape" xmi:id="_tskkoJbEEeWynfEJ_ND8lQ" element="_tsfFEZbEEeWynfEJ_ND8lQ" fontName="Liberation Sans" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+          <children xmi:type="notation:DecorationNode" xmi:id="_tskkopbEEeWynfEJ_ND8lQ" type="ImageCompartment">
+            <layoutConstraint xmi:type="notation:Size" xmi:id="_tskko5bEEeWynfEJ_ND8lQ" width="1320" height="1320"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_tslLsJbEEeWynfEJ_ND8lQ" type="Stereotype"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_tslLsZbEEeWynfEJ_ND8lQ" type="Name"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_tslLspbEEeWynfEJ_ND8lQ" type="Parent"/>
+          <children xmi:id="_tslLs5bEEeWynfEJ_ND8lQ" type="inEventCompartment">
+            <styles xmi:type="notation:DrawerStyle" xmi:id="_tslLtJbEEeWynfEJ_ND8lQ"/>
+            <styles xmi:type="notation:TitleStyle" xmi:id="_tslLtZbEEeWynfEJ_ND8lQ"/>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_tslLtpbEEeWynfEJ_ND8lQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_tslLt5bEEeWynfEJ_ND8lQ"/>
+          </children>
+          <children xmi:id="_tslLuJbEEeWynfEJ_ND8lQ" type="outEventCompartment">
+            <styles xmi:type="notation:DrawerStyle" xmi:id="_tslLuZbEEeWynfEJ_ND8lQ"/>
+            <styles xmi:type="notation:TitleStyle" xmi:id="_tslLupbEEeWynfEJ_ND8lQ"/>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_tslLu5bEEeWynfEJ_ND8lQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_tslLvJbEEeWynfEJ_ND8lQ"/>
+          </children>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tskkoZbEEeWynfEJ_ND8lQ" x="11095" y="3487"/>
+        </children>
+        <children xmi:type="umlnotation:UMLShape" xmi:id="_vnIz4JbEEeWynfEJ_ND8lQ" element="_vnDUUJbEEeWynfEJ_ND8lQ" fontName="Liberation Sans" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+          <children xmi:type="notation:DecorationNode" xmi:id="_vnIz4pbEEeWynfEJ_ND8lQ" type="ImageCompartment">
+            <layoutConstraint xmi:type="notation:Size" xmi:id="_vnIz45bEEeWynfEJ_ND8lQ" width="1320" height="1320"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_vnIz5JbEEeWynfEJ_ND8lQ" type="Stereotype"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_vnIz5ZbEEeWynfEJ_ND8lQ" type="Name"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_vnIz5pbEEeWynfEJ_ND8lQ" type="Parent"/>
+          <children xmi:id="_vnJa8JbEEeWynfEJ_ND8lQ" type="inEventCompartment">
+            <styles xmi:type="notation:DrawerStyle" xmi:id="_vnJa8ZbEEeWynfEJ_ND8lQ"/>
+            <styles xmi:type="notation:TitleStyle" xmi:id="_vnJa8pbEEeWynfEJ_ND8lQ"/>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_vnJa85bEEeWynfEJ_ND8lQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_vnJa9JbEEeWynfEJ_ND8lQ"/>
+          </children>
+          <children xmi:id="_vnJa9ZbEEeWynfEJ_ND8lQ" type="outEventCompartment">
+            <styles xmi:type="notation:DrawerStyle" xmi:id="_vnJa9pbEEeWynfEJ_ND8lQ"/>
+            <styles xmi:type="notation:TitleStyle" xmi:id="_vnJa95bEEeWynfEJ_ND8lQ"/>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_vnJa-JbEEeWynfEJ_ND8lQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_vnJa-ZbEEeWynfEJ_ND8lQ"/>
+          </children>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnIz4ZbEEeWynfEJ_ND8lQ" x="11095" y="6023"/>
+        </children>
+        <children xmi:type="umlnotation:UMLShape" xmi:id="_zPMfsJbEEeWynfEJ_ND8lQ" element="_zPHAIZbEEeWynfEJ_ND8lQ" fontName="Liberation Sans" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+          <children xmi:type="notation:DecorationNode" xmi:id="_zPMfspbEEeWynfEJ_ND8lQ" type="ImageCompartment">
+            <layoutConstraint xmi:type="notation:Size" xmi:id="_zPMfs5bEEeWynfEJ_ND8lQ" width="1320" height="1320"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_zPMftJbEEeWynfEJ_ND8lQ" type="Stereotype"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_zPMftZbEEeWynfEJ_ND8lQ" type="Name"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_zPNGwJbEEeWynfEJ_ND8lQ" type="Parent"/>
+          <children xmi:id="_zPNGwZbEEeWynfEJ_ND8lQ" type="inEventCompartment">
+            <styles xmi:type="notation:DrawerStyle" xmi:id="_zPNGwpbEEeWynfEJ_ND8lQ"/>
+            <styles xmi:type="notation:TitleStyle" xmi:id="_zPNGw5bEEeWynfEJ_ND8lQ"/>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_zPNGxJbEEeWynfEJ_ND8lQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_zPNGxZbEEeWynfEJ_ND8lQ"/>
+          </children>
+          <children xmi:id="_zPNGxpbEEeWynfEJ_ND8lQ" type="outEventCompartment">
+            <styles xmi:type="notation:DrawerStyle" xmi:id="_zPNGx5bEEeWynfEJ_ND8lQ"/>
+            <styles xmi:type="notation:TitleStyle" xmi:id="_zPNGyJbEEeWynfEJ_ND8lQ"/>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_zPNGyZbEEeWynfEJ_ND8lQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_zPNGypbEEeWynfEJ_ND8lQ"/>
+          </children>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zPMfsZbEEeWynfEJ_ND8lQ" x="11059" y="8651"/>
+        </children>
         <element xsi:nil="true"/>
       </contents>
     </eAnnotations>
@@ -130,6 +193,57 @@
     <packagedElement xmi:type="uml:Class" href="Initiator.efx#_VG7roJbEEeWynfEJ_ND8lQ?InRes/Initiator?"/>
     <packagedElement xmi:type="uml:Class" href="Responder.efx#_WNqDIJbEEeWynfEJ_ND8lQ?InRes/Responder?"/>
     <packagedElement xmi:type="uml:Class" href="MediumService.efx#_YezmYJbEEeWynfEJ_ND8lQ?InRes/MediumService?"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_tsazoJbEEeWynfEJ_ND8lQ" name="ISAPini">
+      <packagedElement xmi:type="uml:Collaboration" xmi:id="_tsfFEZbEEeWynfEJ_ND8lQ" name="ISAPini" clientDependency="_tshhUpbEEeWynfEJ_ND8lQ _tshhU5bEEeWynfEJ_ND8lQ">
+        <interfaceRealization xmi:id="_tshhUpbEEeWynfEJ_ND8lQ" name="" supplier="_tsg6QZbEEeWynfEJ_ND8lQ" client="_tsfFEZbEEeWynfEJ_ND8lQ" contract="_tsg6QZbEEeWynfEJ_ND8lQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_tsg6QZbEEeWynfEJ_ND8lQ" name="ISAPini">
+        <eAnnotations xmi:id="_tsg6QpbEEeWynfEJ_ND8lQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_tsg6Q5bEEeWynfEJ_ND8lQ" key="ProtocolRole"/>
+        </eAnnotations>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_tsg6RJbEEeWynfEJ_ND8lQ" name="ISAPini~">
+        <eAnnotations xmi:id="_tshhUJbEEeWynfEJ_ND8lQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_tshhUZbEEeWynfEJ_ND8lQ" key="ProtocolRole"/>
+        </eAnnotations>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_tshhU5bEEeWynfEJ_ND8lQ" supplier="_tsg6RJbEEeWynfEJ_ND8lQ" client="_tsfFEZbEEeWynfEJ_ND8lQ"/>
+      <packagedElement xmi:type="uml:AnyReceiveEvent" xmi:id="_tshhVJbEEeWynfEJ_ND8lQ" name="*"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_vnBfIJbEEeWynfEJ_ND8lQ" name="ISAPres">
+      <packagedElement xmi:type="uml:Collaboration" xmi:id="_vnDUUJbEEeWynfEJ_ND8lQ" name="ISAPres" clientDependency="_vnFJhpbEEeWynfEJ_ND8lQ _vnFJh5bEEeWynfEJ_ND8lQ">
+        <interfaceRealization xmi:id="_vnFJhpbEEeWynfEJ_ND8lQ" name="" supplier="_vnFJgJbEEeWynfEJ_ND8lQ" client="_vnDUUJbEEeWynfEJ_ND8lQ" contract="_vnFJgJbEEeWynfEJ_ND8lQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_vnFJgJbEEeWynfEJ_ND8lQ" name="ISAPres">
+        <eAnnotations xmi:id="_vnFJgZbEEeWynfEJ_ND8lQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_vnFJgpbEEeWynfEJ_ND8lQ" key="ProtocolRole"/>
+        </eAnnotations>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_vnFJg5bEEeWynfEJ_ND8lQ" name="ISAPres~">
+        <eAnnotations xmi:id="_vnFJhJbEEeWynfEJ_ND8lQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_vnFJhZbEEeWynfEJ_ND8lQ" key="ProtocolRole"/>
+        </eAnnotations>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_vnFJh5bEEeWynfEJ_ND8lQ" supplier="_vnFJg5bEEeWynfEJ_ND8lQ" client="_vnDUUJbEEeWynfEJ_ND8lQ"/>
+      <packagedElement xmi:type="uml:AnyReceiveEvent" xmi:id="_vnFwkJbEEeWynfEJ_ND8lQ" name="*"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_zPFK8JbEEeWynfEJ_ND8lQ" name="MSAP">
+      <packagedElement xmi:type="uml:Collaboration" xmi:id="_zPHAIZbEEeWynfEJ_ND8lQ" name="MSAP" clientDependency="_zPI1V5bEEeWynfEJ_ND8lQ _zPJcYJbEEeWynfEJ_ND8lQ">
+        <interfaceRealization xmi:id="_zPI1V5bEEeWynfEJ_ND8lQ" name="" supplier="_zPI1UZbEEeWynfEJ_ND8lQ" client="_zPHAIZbEEeWynfEJ_ND8lQ" contract="_zPI1UZbEEeWynfEJ_ND8lQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_zPI1UZbEEeWynfEJ_ND8lQ" name="MSAP">
+        <eAnnotations xmi:id="_zPI1UpbEEeWynfEJ_ND8lQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_zPI1U5bEEeWynfEJ_ND8lQ" key="ProtocolRole"/>
+        </eAnnotations>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_zPI1VJbEEeWynfEJ_ND8lQ" name="MSAP~">
+        <eAnnotations xmi:id="_zPI1VZbEEeWynfEJ_ND8lQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_zPI1VpbEEeWynfEJ_ND8lQ" key="ProtocolRole"/>
+        </eAnnotations>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_zPJcYJbEEeWynfEJ_ND8lQ" supplier="_zPI1VJbEEeWynfEJ_ND8lQ" client="_zPHAIZbEEeWynfEJ_ND8lQ"/>
+      <packagedElement xmi:type="uml:AnyReceiveEvent" xmi:id="_zPJcYZbEEeWynfEJ_ND8lQ" name="*"/>
+    </packagedElement>
     <profileApplication xmi:id="_igd5wZa5EeWynfEJ_ND8lQ">
       <eAnnotations xmi:id="_igd5wpa5EeWynfEJ_ND8lQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
@@ -168,4 +282,10 @@
     </profileApplication>
   </uml:Package>
   <Default:DefaultLanguage xmi:id="_igd5yZa5EeWynfEJ_ND8lQ" base_Package="_igd5kZa5EeWynfEJ_ND8lQ" defaultLanguage="C++"/>
+  <UMLRealTime:ProtocolContainer xmi:id="_tsfFEJbEEeWynfEJ_ND8lQ" base_Package="_tsazoJbEEeWynfEJ_ND8lQ"/>
+  <UMLRealTime:Protocol xmi:id="_tsg6QJbEEeWynfEJ_ND8lQ" base_Collaboration="_tsfFEZbEEeWynfEJ_ND8lQ"/>
+  <UMLRealTime:ProtocolContainer xmi:id="_vnCtQJbEEeWynfEJ_ND8lQ" base_Package="_vnBfIJbEEeWynfEJ_ND8lQ"/>
+  <UMLRealTime:Protocol xmi:id="_vnEicJbEEeWynfEJ_ND8lQ" base_Collaboration="_vnDUUJbEEeWynfEJ_ND8lQ"/>
+  <UMLRealTime:ProtocolContainer xmi:id="_zPHAIJbEEeWynfEJ_ND8lQ" base_Package="_zPFK8JbEEeWynfEJ_ND8lQ"/>
+  <UMLRealTime:Protocol xmi:id="_zPI1UJbEEeWynfEJ_ND8lQ" base_Collaboration="_zPHAIZbEEeWynfEJ_ND8lQ"/>
 </xmi:XMI>
