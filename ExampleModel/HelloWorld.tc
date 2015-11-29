@@ -2,9 +2,32 @@
 <!--xtools2_universal_type_manager-->
 <!--Rational Software Architect RealTime Edition 9.1.2-->
 <Property id="CONTEXT_SOURCE" value="@49,10@com.ibm.xtools.transform.core.metatype.CollectionHelloWorldjava.util.ArrayList,197&lt;ELEM_START&gt;@52,10@com.ibm.xtools.transform.core.metatype.emf.referenceHelloWorld*HelloWorld;org.eclipse.gmf.runtime.emf.type.core.default;platform:/resource/ExampleModel/HelloWorld.emx#_E5iDME_nEeWJ-pI23zFNuA"/>
+<Property id="CONTEXT_TARGET_CONTAINER" value="@46,=@com.ibm.xtools.transform.core.metatype.project/ExampleModelCpp"/>
+<Property id="DCMP" value="@43,10@com.ibm.xtools.transform.core.metatype.DCMPConceptual1"/>
+<Property id="EnableReverseTransformation" value="@46,=@com.ibm.xtools.transform.core.metatype.booleanfalse"/>
 <Property id="FORWARD_TRANSFORMATION_EXTENSIONS_STATUS" value="@42,0@com.ibm.xtools.transform.core.metatype.Mapjava.util.HashMap&lt;ELEM_START&gt;"/>
+<Property id="PARENT_CONFIG_URIS" value="@49,0@com.ibm.xtools.transform.core.metatype.Collectionjava.util.ArrayList&lt;ELEM_START&gt;"/>
 <Property id="com.ibm.xtools.umldt.rt.transform.ManagingTargetConfiguration" value="@46,=@com.ibm.xtools.transform.core.metatype.booleantrue"/>
 <Property id="com.ibm.xtools.umldt.rt.transform.Prerequisites" value="@49,64@com.ibm.xtools.transform.core.metatype.Collectionplatform:/plugin/com.ibm.xtools.umldt.rt.cpp.core/RTComponent.tcjava.util.ArrayList,115&lt;ELEM_START&gt;@45,=@com.ibm.xtools.transform.core.metatype.stringplatform:/plugin/com.ibm.xtools.umldt.rt.cpp.core/RTComponent.tc"/>
+<Property id="com.ibm.xtools.umldt.rt.transform.TargetConfigurationName" value="@45,=@com.ibm.xtools.transform.core.metatype.stringdefault"/>
+<Property id="com.ibm.xtools.umldt.rt.transform.Type" value="@45,=@com.ibm.xtools.transform.core.metatype.choice2"/>
+<Property id="com.ibm.xtools.umldt.rt.transform.cpp.CompilationMakeArguments" value="@45,=@com.ibm.xtools.transform.core.metatype.string-s"/>
+<Property id="com.ibm.xtools.umldt.rt.transform.cpp.CompilationMakeCommand" value="@45,=@com.ibm.xtools.transform.core.metatype.string$defaultMakeCommand"/>
+<Property id="com.ibm.xtools.umldt.rt.transform.cpp.CompilationMakeInsert" value="@45,=@com.ibm.xtools.transform.core.metatype.string"/>
+<Property id="com.ibm.xtools.umldt.rt.transform.cpp.CompilationMakeType" value="@45,=@com.ibm.xtools.transform.core.metatype.choice5"/>
+<Property id="com.ibm.xtools.umldt.rt.transform.cpp.CompilationTopMakeArguments" value="@45,=@com.ibm.xtools.transform.core.metatype.string"/>
+<Property id="com.ibm.xtools.umldt.rt.transform.cpp.CompilationTopMakeCommand" value="@45,=@com.ibm.xtools.transform.core.metatype.string"/>
+<Property id="com.ibm.xtools.umldt.rt.transform.cpp.CompileArguments" value="@45,=@com.ibm.xtools.transform.core.metatype.string"/>
+<Property id="com.ibm.xtools.umldt.rt.transform.cpp.CompileCommand" value="@45,=@com.ibm.xtools.transform.core.metatype.string$(CC)"/>
+<Property id="com.ibm.xtools.umldt.rt.transform.cpp.ExecutableName" value="@45,=@com.ibm.xtools.transform.core.metatype.stringexecutable$(EXEC_EXT)"/>
+<Property id="com.ibm.xtools.umldt.rt.transform.cpp.LinkArguments" value="@45,=@com.ibm.xtools.transform.core.metatype.string"/>
+<Property id="com.ibm.xtools.umldt.rt.transform.cpp.LinkCommand" value="@45,=@com.ibm.xtools.transform.core.metatype.string$(LD)"/>
+<Property id="com.ibm.xtools.umldt.rt.transform.cpp.LinkOrder" value="@45,=@com.ibm.xtools.transform.core.metatype.string"/>
+<Property id="com.ibm.xtools.umldt.rt.transform.cpp.TargetConfiguration" value="@45,=@com.ibm.xtools.transform.core.metatype.stringSLED10x64T.x64-gnu-4.1"/>
 <Property id="com.ibm.xtools.umldt.rt.transform.cpp.TargetServicesLibrary" value="@45,=@com.ibm.xtools.transform.core.metatype.string${RSA_RT_HOME}/C++/TargetRTS"/>
 <Property id="com.ibm.xtools.umldt.rt.transform.cpp.TopCapsule" value="@52,22@com.ibm.xtools.transform.core.metatype.emf.referenceHelloWorld::HelloWorld*HelloWorld::HelloWorld;org.eclipse.gmf.runtime.emf.type.core.default;platform:/resource/ExampleModel/HelloWorld.emx#_E8MVoE_nEeWJ-pI23zFNuA"/>
+<Property id="com.ibm.xtools.umldt.rt.transform.cpp.UseAbsolutePaths" value="@46,=@com.ibm.xtools.transform.core.metatype.booleanfalse"/>
+<Property id="com.ibm.xtools.umldt.rt.transform.cpp.UserObjectFiles" value="@45,=@com.ibm.xtools.transform.core.metatype.string"/>
+<Property id="logTrace" value="@46,=@com.ibm.xtools.transform.core.metatype.booleanfalse"/>
+<Property id="replaceUML" value="@46,=@com.ibm.xtools.transform.core.metatype.booleanfalse"/>
 </TransformationConfiguration>
