@@ -142,11 +142,11 @@ context()->abort();</body>
         </region>
       </ownedBehavior>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_7SMGwJa5EeWynfEJ_ND8lQ" name="MsgP">
-      <packagedElement xmi:type="uml:Collaboration" xmi:id="_7SQYMJa5EeWynfEJ_ND8lQ" name="MsgP" clientDependency="_7SS0dpa5EeWynfEJ_ND8lQ _7STbgJa5EeWynfEJ_ND8lQ">
+    <packagedElement xmi:type="uml:Package" xmi:id="_7SMGwJa5EeWynfEJ_ND8lQ" name="MsgProtocol">
+      <packagedElement xmi:type="uml:Collaboration" xmi:id="_7SQYMJa5EeWynfEJ_ND8lQ" name="MsgProtocol" clientDependency="_7SS0dpa5EeWynfEJ_ND8lQ _7STbgJa5EeWynfEJ_ND8lQ">
         <interfaceRealization xmi:id="_7SS0dpa5EeWynfEJ_ND8lQ" name="" supplier="_7SS0cJa5EeWynfEJ_ND8lQ" client="_7SQYMJa5EeWynfEJ_ND8lQ" contract="_7SS0cJa5EeWynfEJ_ND8lQ"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Interface" xmi:id="_7SS0cJa5EeWynfEJ_ND8lQ" name="MsgP">
+      <packagedElement xmi:type="uml:Interface" xmi:id="_7SS0cJa5EeWynfEJ_ND8lQ" name="MsgProtocol">
         <eAnnotations xmi:id="_7SS0cZa5EeWynfEJ_ND8lQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
           <details xmi:id="_7SS0cpa5EeWynfEJ_ND8lQ" key="ProtocolRole"/>
         </eAnnotations>
@@ -155,7 +155,7 @@ context()->abort();</body>
         </ownedOperation>
         <ownedOperation xmi:id="_DkAL8Za6EeWynfEJ_ND8lQ" name="getMsg"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Interface" xmi:id="_7SS0c5a5EeWynfEJ_ND8lQ" name="MsgP~">
+      <packagedElement xmi:type="uml:Interface" xmi:id="_7SS0c5a5EeWynfEJ_ND8lQ" name="MsgProtocol~">
         <eAnnotations xmi:id="_7SS0dJa5EeWynfEJ_ND8lQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
           <details xmi:id="_7SS0dZa5EeWynfEJ_ND8lQ" key="ProtocolRole"/>
         </eAnnotations>
