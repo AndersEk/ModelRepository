@@ -29,7 +29,7 @@
       </eAnnotations>
       <region xmi:id="_VHBLMZbEEeWynfEJ_ND8lQ" name="Region1">
         <subvertex xmi:type="uml:Pseudostate" xmi:id="_VHByQJbEEeWynfEJ_ND8lQ"/>
-        <subvertex xmi:type="uml:State" xmi:id="_VHByQZbEEeWynfEJ_ND8lQ" name="State1"/>
+        <subvertex xmi:type="uml:State" xmi:id="_VHByQZbEEeWynfEJ_ND8lQ" name="Wait"/>
         <transition xmi:id="_VHByQpbEEeWynfEJ_ND8lQ" name="Initial" source="_VHByQJbEEeWynfEJ_ND8lQ" target="_VHByQZbEEeWynfEJ_ND8lQ">
           <eAnnotations xmi:id="_VHByQ5bEEeWynfEJ_ND8lQ" source="uml2.alias">
             <details xmi:id="_VHByRJbEEeWynfEJ_ND8lQ" key="Initial"/>
