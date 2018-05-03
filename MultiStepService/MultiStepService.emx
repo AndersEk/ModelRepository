@@ -753,4 +753,11 @@ serviceProtocol.done().send();</body>
   <UMLRealTime:OutEvent xmi:id="_saQX8Be5EeiyJuegAblCkA" base_CallEvent="_saN7sBe5EeiyJuegAblCkA"/>
   <UMLRealTime:RTPort xmi:id="_-EioYBe5EeiyJuegAblCkA" isConjugate="true" base_Port="_-EflEBe5EeiyJuegAblCkA"/>
   <UMLRealTime:RTConnector xmi:id="_DeJxYBe6EeiyJuegAblCkA" base_Connector="_DeDqwBe6EeiyJuegAblCkA"/>
+  <CppPropertySets:GeneralCapsuleProperties xmi:id="_J8WSUCuOEeiKDr777cTuUA" base_Class="_pr2HAAsuEei5eqJ3HP4N_Q">
+    <headerPreface xmi:id="_J8dAACuOEeiKDr777cTuUA" body="#include &lt;stdio.h>&#xD;&#xA;#include &lt;ostream>"/>
+    <implementationEnding xmi:id="_zU1dcCuOEeiKDr777cTuUA" body="static int fix() {&#xD;&#xA;setvbuf( stdout, 0, _IONBF, 0);&#xD;&#xA;setvbuf( stderr, 0, _IONBF, 0);&#xD;&#xA;fflush(stdout);&#xD;&#xA;fflush(stderr);&#xD;&#xA;return 0;&#xD;&#xA;}&#xD;&#xA;//static int _fix = fix();"/>
+  </CppPropertySets:GeneralCapsuleProperties>
+  <CppPropertySets:GeneralCapsuleProperties xmi:id="_icKHgCw7EeiF0viYipHfBQ" base_Class="_4oP04AsuEei5eqJ3HP4N_Q">
+    <headerPreface xmi:id="_icSDUCw7EeiF0viYipHfBQ" body="#include &lt;ostream>&#xD;&#xA;#include &lt;stdio.h>&#xD;&#xA;#include &lt;iostream>&#xD;&#xA;#include &lt;cstdio>"/>
+  </CppPropertySets:GeneralCapsuleProperties>
 </xmi:XMI>
