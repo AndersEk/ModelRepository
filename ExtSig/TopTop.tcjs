@@ -1,0 +1,13 @@
+/*
+ *   Converted from: platform:/resource/ExtSig/HelloWorld.tc
+ */
+
+let tc = TCF.define(TCF.CPP_TRANSFORM);
+tc.sources = [
+    'platform:/resource/ExtSig/ExtSig.emx#_jM0S8F0QEei3qq3VIqLNPw'
+];
+tc.topCapsule = 'platform:/resource/ExtSig/ExtSig.emx#_2UKwUF2qEei3qq3VIqLNPw';
+tc.createTargetProject = true;
+tc.targetProject = 'ExtSigDpp';
+tc.compilationMakeType = MakeType.MS_nmake;
+tc.targetConfiguration = 'NT40T.x86-VisualC++-15.0';
